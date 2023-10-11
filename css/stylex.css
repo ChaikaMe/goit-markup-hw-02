@@ -113,7 +113,7 @@ button{
 /* ====================OUR TEAM======================== */
 
 .team-section {
-    color: #F4F4FD;
+    background-color: #F4F4FD;
 }
 
 .team-title {
@@ -127,7 +127,7 @@ button{
 }
 
 .team-item{
-    color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 .team-name {
@@ -145,6 +145,7 @@ button{
     line-height: 1.50;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #434455;
 }
 
 /* =================OUR PORTFOLIO=================== */
