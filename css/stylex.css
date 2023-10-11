@@ -1,7 +1,8 @@
 /* =====================BASE===================== */
 body{
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 ul,
@@ -55,7 +56,10 @@ button{
 
 /* ==================HERO SECTION======================= */
 
-.hero-title{
+.hero-section {
+    background-color: #2e2f42;
+}
+.hero-title {
     text-align: center;
     font-size: 56px;
     font-weight: 700;
@@ -64,13 +68,19 @@ button{
     color: white;
 }
 
-.hero-button{
+.hero-button {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.50;
     letter-spacing: 0.04em;
     color: white;
+    background-color: #4D5AE5;
 } 
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+}
 
 /* ====================OUR BENEFITS===================== */
 
@@ -118,6 +128,10 @@ button{
 
 /* =================OUR PORTFOLIO=================== */
 
+.portfolio-section {
+    background-color: #F4F4FD;
+}
+
 .portfolio-title {
     font-size: 36px;
     font-weight: 700;
@@ -144,6 +158,10 @@ button{
 }
 
 /* ======================FOOTER==================== */
+
+.index-footer {
+    background-color: #2e2f42;
+}
 
 .footer-text{
     font-size: 16px;
