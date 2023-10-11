@@ -21,7 +21,7 @@ button{
 /* ====================HEADER===================== */
 
 .logo{
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -51,7 +51,9 @@ button{
 }
 
 .contact-link:hover,
-.page-nav-link:hover{
+.page-nav-link:hover,
+.contact-link:focus,
+.page-nav-link:focus{
     color: #404BBF;
 }
 
