@@ -1,0 +1,154 @@
+/* =====================BASE===================== */
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+button{
+    cursor:pointer;
+}
+
+.link{
+    text-decoration: none;
+}
+
+/* ====================HEADER===================== */
+
+.logo{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-span{
+    color: #4D5AE5;
+}
+
+.page-nav-link{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+}
+
+.contact-link{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    color: #434455;
+}
+
+.contact-link:hover,
+.page-nav-link:hover{
+    color: #404BBF;
+}
+
+/* ==================HERO SECTION======================= */
+
+.hero-title{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: white;
+}
+
+.hero-button{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.50;
+    letter-spacing: 0.04em;
+    color: white;
+} 
+
+/* ====================OUR BENEFITS===================== */
+
+.benefits-item-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.benefits-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* ====================OUR TEAM======================== */
+
+.team-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.009em;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.team-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.team-position {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+/* =================OUR PORTFOLIO=================== */
+
+.portfolio-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.009em;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.portfolio-item-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.portfolio-item-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+/* ======================FOOTER==================== */
+
+.footer-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
