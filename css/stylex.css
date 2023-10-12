@@ -165,6 +165,10 @@ button{
     color: #2e2f42;
 }
 
+.portfolio-item {
+    background-color: #FFFFFF;
+}
+
 .portfolio-item-title {
     font-size: 20px;
     font-weight: 500;
